@@ -24,7 +24,7 @@ function App() {
   return (
     <div>
       <Navigation isAuth={isAuthenticated} toggleAuth={toggleIsAuthenticated} />
-      <Switch>
+      <Switch>to
         <Route exact path="/">
           <Home />
         </Route>

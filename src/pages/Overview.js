@@ -5,8 +5,8 @@ import posts from '../data/posts.json';
 function Overview() {
   return (
     <section>
-      <h1>Blog overzichtspagina</h1>
-      <h3>Aantal blogposts: {posts.length}</h3>
+      <h1>Vista general de la pagina</h1>
+      <h3>Cantidad de comentarios: {posts.length}</h3>
       <ul>
         {posts.map((post) => {
           return <li key={post.id}>

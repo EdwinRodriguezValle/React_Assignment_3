@@ -14,7 +14,7 @@ function Navigation({ isAuth, toggleAuth }) {
       <ul>
         <li>
           <NavLink to="/">
-            Home
+            Inicio
           </NavLink>
         </li>
         {/*Is de gebruiker ingelogd? Laat dan de blogposts en uitlog knop zien, en anders alleen de login knop */}
@@ -27,14 +27,14 @@ function Navigation({ isAuth, toggleAuth }) {
             </li>
             <li>
               <button type="button" onClick={signOut}>
-                Uitloggen
+                Salir
               </button>
             </li>
           </>
           :
           <li>
             <NavLink to="/login">
-              Login
+              Ingresar
             </NavLink>
           </li>}
       </ul>

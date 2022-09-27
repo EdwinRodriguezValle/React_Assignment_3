@@ -12,10 +12,10 @@ function Login({ toggleAuth }) {
 
   return (
     <section>
-      <h1>Login pagina</h1>
-      <p>Druk op de knop om je in te loggen!</p>
+      <h1>Inicio de pagina</h1>
+      <p>Entra en la pagina</p>
       <button type="button" onClick={signIn}>
-        Inloggen
+        Ingresar
       </button>
     </section>
   );

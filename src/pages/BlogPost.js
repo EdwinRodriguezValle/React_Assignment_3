@@ -6,7 +6,7 @@ function BlogPost() {
   const { blogId } = useParams();
 
   const currentPost = posts.find((post) => {
-    return post.id === id;
+    return post.id === 'id';
   });
 
   return (
